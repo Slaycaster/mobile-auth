@@ -1,0 +1,20 @@
+<ion-view view-title="Profile" name="dashboard-view">
+  <ion-content class="padding">
+      <div class ="row">
+      	<div class = "col-45">
+          <div id="avatar" cache-view="false">
+				      <img id="avatar" src="http://192.168.254.103/teams/public/{{picture_path}}">
+            </div> <!--avatar-->
+      	</div>
+      	<div class = "col-55 col-offset-10">
+      		<h4>{{ username }} {{ lastname }}</h4>
+      		<h5>{{ jobtitle }}, {{ department }}</h5>
+      		 <button class = "button button-small icon-left ion-log-out button-stable" ng-click="logout()">Logout</button>
+      	</div>
+      </div><!--div row-->
+      <br>
+      <h4>General Account Settings</h4>
+      <hr>
+      <button class="button button-block button-outline button-positive" ng-click="changePassword()">Change Password</button>
+  </ion-content>
+</ion-view>

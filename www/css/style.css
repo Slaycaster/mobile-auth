@@ -1,0 +1,23 @@
+/* Empty. Add your own CSS if you like */
+#avatar {
+    /* This image is 687 wide by 1024 tall, similar to your aspect ratio */
+    
+    /* make a square container */
+    width: 100px;
+    height: 100px;
+
+    /* fill the container, preserving aspect ratio, and cropping to fit */
+    background-size: cover;
+
+    /* center the image vertically and horizontally */
+    background-position: center;
+
+    /* round the edges to a circle with border radius 1/2 container size */
+    border-radius: 50%;
+}
+
+.my_bg
+{
+    color:white;
+  background-image: url(../img/bg.png); background-position: center center; background-repeat: no-repeat; background-attachment: fixed; background-size:cover;
+}
